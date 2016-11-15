@@ -1,5 +1,5 @@
 config:
   dummy: true
-message: stupid message
+message: my stupid message
 server:
     port: 9999
