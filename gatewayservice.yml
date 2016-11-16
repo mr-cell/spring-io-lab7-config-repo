@@ -1,0 +1,5 @@
+zuul:
+  ignoredServices: configserver,reservationservice,reservationclient,gatewayservice
+  routes: 
+    reservationservice: /service/**
+    reservationclient: /client/** 

@@ -1,10 +1,7 @@
 info:
   instanceId: ${spring.application.name}-${random.value}
-config:
-  dummy: true
-message: my stupid message
 server:
-    port: 0
+    port: 7000
 eureka:
   client:
     serviceUrl:

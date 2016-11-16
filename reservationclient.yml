@@ -4,7 +4,7 @@ config:
   dummy: true
 message: my stupid message
 server:
-    port: 0
+    port: 9990
 eureka:
   client:
     serviceUrl:
